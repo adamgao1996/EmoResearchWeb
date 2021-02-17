@@ -1,0 +1,23 @@
+figure {
+  position: relative;
+  width: 90vw;
+  height: 70vh;
+  margin: 30px auto;
+  border: 1px solid red;
+  text-align: center;
+}
+iframe {
+  position: absolute;
+  top: 0;
+  overflow: auto;
+  display: block;
+  height: 90%;
+  width: 100%;
+}
+figcaption {
+  position: absolute;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  border: 1px solid blue;
+}
